@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.chatbox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20rem;
+    height: 100vh;
+}
+
+br{
+    display: block;
+    margin: -1.5px;
+}
+
+.principal {
+    padding: 8rem;
+    background-color: #f8f8f8;
+    height: 82vh;
+    width: 100%;
+}
+
+.principalbox{
+    padding: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; 
+}
+
+h1{
+    font-weight: 500, bold;
+    font-size: 3rem;
+}
+
+.textoprincipal {
+    font-stretch: condensed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100, lighter;
+    width: 30rem;
+    padding-left: 10rem;
+}
+
+.mano{
+    width: 16rem;
+    margin: 1rem;
+}
+
+.block1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.7rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 19rem;
+    gap: 1rem;
+}
+
+.icons{
+    color: #BEC1BB;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textonav{
+    font-weight: 100, lighter;
+    font-size: x-small;
+    color: #828485;
+}
+
+small{
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.maria{
+    border-radius: 10rem;
+    height: 2rem;
+    width: 2rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.juanita{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.alberto{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.ignacio{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.cristian{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.mariajose{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.gonzalo{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.juanpablo{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.magdalena{
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+
+.NC{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 17rem;
+}
+
+.textonc {
+    color: white;
+    background-color: #a491d3;
+    padding: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border: solid 0.1rem;
+    border-color: #E8EBE4;
+}
+
+.textonc:hover{
+    background-color: #CDC3E6;
+    cursor: pointer;
+}
+
+
+.chat1{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat2{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat3{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat4{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat5{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat6{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat7{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.chat8{
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom: inset 0.1rem;
+    border-color: #efefef;
+    width: 16.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    gap: 1rem;
+}
